@@ -1,0 +1,74 @@
+React frontend
+├── /public
+│   ├── index.html              # Main HTML file
+│   ├── favicon.ico             # Site icon
+│   ├── img/                    # Static images
+├── /src
+│   ├── /components
+│   │   ├── Navbar.js           # Navigation bar
+│   │   ├── Footer.js           # Footer
+│   │   ├── Terminal.js         # Simulated attack logs
+│   │   ├── ResponseSimulator.js # Displays simulated attack responses
+│   ├── /pages
+│   │   ├── Home.js             # Welcome page
+│   │   ├── LoginPage.js        # Login page
+│   │   ├── RegisterPage.js     # Registration page
+│   │   ├── AttackPage.js       # Attack simulation selection UI
+│   │   ├── FeedbackPage.js     # Feedback submission & viewing
+│   │   ├── DocsPage.js         # Documentation page
+│   │   ├── PyDDOSGuardPage.js  # Info about PyDDOS Guard library
+│   │   ├── GuidesPage.js       # Guides & suggestions for DDoS protection
+│   │   ├── /simulations
+│   │   │   ├── DDosPage.js      # Simulate DDoS/DoS attacks (strong, medium, weak)
+│   │   │   ├── RateLimitPage.js # Rate limiting defense demo
+│   │   │   ├── CSRFPage.js      # CSRF protection demo
+│   │   │   ├── CaptchaPage.js   # CAPTCHA defense demo
+│   │   │   ├── WAFPage.js       # Web Application Firewall demo
+│   │   │   ├── TorBlockPage.js  # Tor blocking demo
+│   │   │   ├── ip_tracking.js   # simulates activities of the ip on the website
+│   ├── /api
+│   │   ├── axiosConfig.js      # API setup for frontend
+│   ├── context
+│   │   ├── AuthContext.js
+│   ├── /styles 
+│   │   ├── global.css          # Global styling
+│   │   ├── SimulationPage.css
+│   │   ├── terminal.css        # Styling for logs terminal
+├── App.js                      # Main React component
+├── index.js                    # React entry file
+├── package.json                # Dependencies
+├── .gitignore                  # Ignore unnecessary files
+
+
+
+Flask backend
+├── /venv                    
+├── /api
+│   ├── __init__.py           # Flask app initialization
+│   ├── auth.py               # Authentication system (Login/Register)
+│   ├── routes.py             # General API routes (public & non-admin)
+│   ├── models.py             # Database models & queries (Users, Feedback, IPTracking)
+│   ├── simulations.py        # Secure attack & defense simulation endpoints
+│   ├── backendpanel.py       # Admin panel routes (Handles Flask admin page)
+├── /middleware
+│   ├── pyddosguard.py        # PyDDoSGuard middleware (Security mechanisms)
+├── /templates
+│   ├── base.html             # Base template for panel layout
+│   ├── /partials             # Reusable components
+│   │   ├── navbar.html       # Navigation bar for the panel
+│   │   ├── csrf.html         # CSRF input
+│   │   ├── footer.html       # Footer component
+│   ├── /content              # Content-specific templates
+│   │   ├── login.html        # Login page for Flask admin panel
+│   │   ├── stats.html        # Default stats page (Overview of system data)
+│   │   ├── users.html        # User management page (List & manage users)
+│   │   ├── feedback.html     # Feedback table view (User-submitted feedback)
+│   │   ├── ip_tracking.html  # IP tracking & blacklist management (Monitors IPs)
+├── /static                  
+│   ├── style.css             # Admin panel styles
+├── config.py                 # Configuration (Redis, MySQL)
+├── requirements.txt          # Python dependencies
+├── run.py                    # Entry point for Flask app
+
+npm init react-app frontend --verbose
+Refresh token

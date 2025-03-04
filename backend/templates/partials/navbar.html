@@ -1,0 +1,19 @@
+<!-- navbar.html - Navbar with DDoSGuard title and active user session info -->
+<nav>
+    <ul>
+        <li style="float:left; font-weight: bold;"><h1>DDoSGuard</h1></li>
+        {% if session.user_id %}
+            <li><a href="/ddosguard/panel/users">Users</a></li>
+            <li><a href="/ddosguard/panel/feedback">Feedback</a></li>
+            <li><a href="/ddosguard/panel/ip-tracking">IP Tracking</a></li>
+            <li><a href="/ddosguard/panel/stats">Statistics</a></li>
+            <li style="float:right;">
+                <a href="#">{{ session.user_name }}</a>
+                <ul>
+                    <li><a href="/ddosguard/panel/edit-profile">Edit Profile</a></li>
+                    <li><a href="/ddosguard/panel/logout">Logout</a></li>
+                </ul>
+            </li>
+        {% endif %}
+    </ul>
+</nav>
