@@ -1,0 +1,46 @@
+Glad it worked, mate! Here’s the full list of PowerShell commands you can use for future reference. You can save these in your archive for later use.
+
+---
+
+### **📌 Steps to Upload a Missing Folder (Windows PowerShell)**
+1️⃣ **Check if `frontend` is ignored**  
+Run this to see if `frontend` is listed in `.gitignore`:  
+```powershell
+cat .gitignore
+```
+- If found, **edit `.gitignore`** and remove `frontend/` or `frontend/*`.
+
+---
+
+2️⃣ **Add the frontend folder to Git**  
+Run:
+```powershell
+git add frontend
+git commit -m "Adding frontend files"
+git push origin main
+```
+
+---
+
+3️⃣ **If Git still ignores the files, force add them**  
+```powershell
+git add frontend/*
+git commit -m "Forcing Git to track frontend files"
+git push origin main
+```
+
+---
+
+4️⃣ **If files still don’t show, reset and retry**  
+```powershell
+git rm -r --cached frontend
+git add frontend
+git commit -m "Re-adding frontend"
+git push origin main
+```
+
+---
+
+This will make sure the frontend folder gets tracked properly and uploaded to GitHub. 🚀
+
+Let me know if you ever need help again! 🔥
