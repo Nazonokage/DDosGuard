@@ -17,6 +17,7 @@ PyDDoSGuard is a lightweight, reusable, and **free** middleware library designed
 - **Tor Blocking**: Automatically blocks Tor exit nodes.
 - **Redis Integration**: Efficient logging and blacklisting with Redis.
 - **Framework Agnostic**: Works seamlessly with Flask, Django, and more.
+- **Debug Logging**: Optional detailed logging for troubleshooting.
 
 ---
 
@@ -40,7 +41,7 @@ app = Flask(__name__)
 app.secret_key = "supersecretkey"
 
 # Initialize PyDDoSGuard
-ddos_guard = PyDDoSGuard(limit=10, interval=5, block_time=600)
+ddos_guard = PyDDoSGuard(limit=10, interval=5, block_time=600, debug_logging=True)
 
 # Apply middleware
 @app.before_request
@@ -49,7 +50,9 @@ def apply_ddos_protection():
 
 @app.route("/")
 def home():
-    return "Welcome to the protected site!"
+    # Generate CSRF token for the session
+    csrf_token = ddos_guard.generate_csrf_token()
+    return f"Welcome to the protected site! CSRF Token: {csrf_token}"
 
 if __name__ == "__main__":
     app.run()
@@ -67,9 +70,12 @@ ddos_guard = PyDDoSGuard(limit=10, interval=5, block_time=600)
 class DDoSGuardMiddleware:
     def __init__(self, get_response):
         self.get_response = get_response
+        # Generate initial CSRF token for the application
+        ddos_guard.generate_csrf_token()
 
     def __call__(self, request):
-        ddos_guard.middleware_django(self.get_response)(request)
+        # Apply CSRF protection
+        ddos_guard.csrf_protect()
         return self.get_response(request)
 
 # Add middleware to your Django settings
@@ -132,8 +138,10 @@ Logs all attack attempts for later analysis.
 ddos_guard.log_attack("192.168.1.1", "SQL Injection", "Malicious pattern detected")
 
 # Retrieve attack logs
-attack_logs = ddos_guard.get_attack_logs()
-print(attack_logs)
+import json
+attack_logs = ddos_guard.redis_client.lrange("attack_logs", 0, -1)
+for log in attack_logs:
+    print(json.loads(log))
 ```
 
 ### **7. Blacklisting IPs**
@@ -141,6 +149,18 @@ Manually blacklist an IP.
 
 ```python
 ddos_guard.blacklist_ip("192.168.1.1")
+```
+
+### **8. Debugging and Diagnostics**
+Check Redis keys and enable debug logging.
+
+```python
+# Enable debug logging
+ddos_guard = PyDDoSGuard(debug_logging=True)
+
+# Inspect Redis keys
+redis_keys = ddos_guard.check_redis_keys()
+print(redis_keys)  # Prints all Redis keys and their values
 ```
 
 ---
@@ -158,6 +178,15 @@ ddos_guard.blacklist_ip("192.168.1.1")
 | `redis_host`       | `"localhost"`       | Redis server host.                                                         |
 | `redis_port`       | `6379`              | Redis server port.                                                         |
 | `redis_db`         | `0`                 | Redis database number.                                                     |
+| `debug_logging`    | `False`             | Enable or disable debug logging for troubleshooting.                       |
+
+---
+
+## **Security Considerations** 🔒
+
+- **Redis Security**: Ensure your Redis instance is not exposed to the internet.
+- **Secret Key**: Always use a strong, unique secret key for your application.
+- **Continuous Monitoring**: Regularly review attack logs and adjust configurations.
 
 ---
 

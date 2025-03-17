@@ -24,6 +24,9 @@ def register():
     email = data.get('email')
     name = data.get('name')
     password = data.get('password')
+    address = data.get('address')
+    work = data.get('work')  # Position/role
+    company = data.get('company')  # Company/workplace
 
     # Validation
     if not all([email, name, password]):
@@ -36,6 +39,9 @@ def register():
         new_user = User(
             name=name,
             email=email,
+            address=address,
+            work=work,  # Position/role
+            company=company,  # Company/workplace
         )
         new_user.set_password(password)
         db.session.add(new_user)

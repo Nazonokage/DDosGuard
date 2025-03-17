@@ -12,8 +12,8 @@ class User(db.Model):
     password_hash = db.Column(db.String(255), nullable=False)
     address = db.Column(db.Text)
     work = db.Column(db.String(100))
+    company = db.Column(db.String(100))  # New column for company/workplace
     account_type = db.Column(db.Enum("Client", "Admin"), default="Client")
-    status = db.Column(db.String(100), default="DEV")
     created_at = db.Column(db.TIMESTAMP, server_default=db.func.current_timestamp())
 
     def set_password(self, password):
@@ -25,9 +25,9 @@ class User(db.Model):
         return self.password_hash == hashlib.sha256(password.encode('utf-8')).hexdigest()
 
 class Feedback(db.Model):
-    __tablename__ = 'feedback'  # Explicitly set the table name to 'feedback'
-    fb_id = db.Column(db.Integer, primary_key=True)
-    user_id = db.Column(db.Integer, db.ForeignKey("users.uid", ondelete="CASCADE"))  # Reference 'users.uid'
+    __tablename__ = 'feedback'
+    fb_id = db.Column(db.Integer, primary_key=True)  # Match the column name in the SQL table
+    user_id = db.Column(db.Integer, db.ForeignKey("users.uid", ondelete="CASCADE"), nullable=False)
     message = db.Column(db.Text, nullable=False)
     submitted_at = db.Column(db.TIMESTAMP, server_default=db.func.current_timestamp())
 

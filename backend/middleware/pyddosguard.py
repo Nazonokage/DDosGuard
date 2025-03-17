@@ -24,7 +24,7 @@ class PyDDoSGuard:
         redis_host="localhost",  # Redis host
         redis_port=6379,  # Redis port
         redis_db=0,  # Redis database
-        debug_logging=True,  # Enable debug logging
+        debug_logging=False,  # Enable debug logging
     ):
         """
         Initialize PyDDoSGuard with customizable settings.

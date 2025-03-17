@@ -3,12 +3,14 @@ React frontend
 │   ├── index.html              # Main HTML file
 │   ├── favicon.ico             # Site icon
 │   ├── img/                    # Static images
+│   │   ├── mapache-pedro.gif
 ├── /src
 │   ├── /components
 │   │   ├── Navbar.js           # Navigation bar
 │   │   ├── Footer.js           # Footer
 │   │   ├── Terminal.js         # Simulated attack logs
 │   │   ├── ResponseSimulator.js # Displays simulated attack responses
+│   │   ├── ProtectedRoute.js
 │   ├── /pages
 │   │   ├── Home.js             # Welcome page
 │   │   ├── LoginPage.js        # Login page
@@ -20,6 +22,7 @@ React frontend
 │   │   ├── GuidesPage.js       # Guides & suggestions for DDoS protection
 │   │   ├── /simulations
 │   │   │   ├── DDosPage.js      # Simulate DDoS/DoS attacks (strong, medium, weak)
+│   │   │   ├── introduction.js
 │   │   │   ├── RateLimitPage.js # Rate limiting defense demo
 │   │   │   ├── CSRFPage.js      # CSRF protection demo
 │   │   │   ├── CaptchaPage.js   # CAPTCHA defense demo
@@ -70,5 +73,3 @@ Flask backend
 ├── requirements.txt          # Python dependencies
 ├── run.py                    # Entry point for Flask app
 
-npm init react-app frontend --verbose
-Refresh token

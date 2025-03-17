@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 25, 2025 at 05:28 PM
+-- Generation Time: Mar 05, 2025 at 11:38 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.1.17
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `feedback` (
-  `id` int(11) NOT NULL,
+  `fb_id` int(11) NOT NULL,
   `user_id` int(11) DEFAULT NULL,
   `message` text NOT NULL,
   `submitted_at` timestamp NOT NULL DEFAULT current_timestamp()
@@ -38,8 +38,9 @@ CREATE TABLE `feedback` (
 -- Dumping data for table `feedback`
 --
 
-INSERT INTO `feedback` (`id`, `user_id`, `message`, `submitted_at`) VALUES
-(1, 1, 'User 1 requested this feedback for testing.', '2025-02-25 11:15:33');
+INSERT INTO `feedback` (`fb_id`, `user_id`, `message`, `submitted_at`) VALUES
+(1, 1, 'User 1 requested this feedback for testing.', '2025-02-25 11:15:33'),
+(2, NULL, 'suka blyat nahui', '2025-03-05 09:14:48');
 
 -- --------------------------------------------------------
 
@@ -48,7 +49,7 @@ INSERT INTO `feedback` (`id`, `user_id`, `message`, `submitted_at`) VALUES
 --
 
 CREATE TABLE `ip_tracking` (
-  `id` int(11) NOT NULL,
+  `ip_id` int(11) NOT NULL,
   `ip_address` varchar(45) NOT NULL,
   `status` enum('unmarked','attempted','blocked') DEFAULT 'unmarked',
   `attempt_count` int(11) DEFAULT 0,
@@ -65,14 +66,14 @@ CREATE TABLE `ip_tracking` (
 --
 
 CREATE TABLE `users` (
-  `id` int(11) NOT NULL,
+  `uid` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `password_hash` varchar(255) NOT NULL,
   `address` text DEFAULT NULL,
-  `work` varchar(100) DEFAULT NULL,
+  `work` varchar(100) DEFAULT 'Guests',
   `account_type` enum('Client','Admin') NOT NULL DEFAULT 'Client',
-  `status` varchar(100) DEFAULT 'DEV',
+  `company` varchar(100) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -80,8 +81,10 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `email`, `password_hash`, `address`, `work`, `account_type`, `status`, `created_at`) VALUES
-(1, 'human', 'bruh@hitman.com', 'a95bc16631ae2b6fadb455ee018da0adc2703e56d89e3eed074ce56d2f7b1b6a', 'Moscow', 'asdasd', 'Admin', 'Student', '2025-02-09 11:50:59');
+INSERT INTO `users` (`uid`, `name`, `email`, `password_hash`, `address`, `work`, `account_type`, `company`, `created_at`) VALUES
+(1, 'human', 'bruh@hitman.com', 'a95bc16631ae2b6fadb455ee018da0adc2703e56d89e3eed074ce56d2f7b1b6a', 'Moscow', 'asdasd', 'Admin', NULL, '2025-02-09 11:50:59'),
+(2, 'leo', 'lm10@miami.com', '8535e86c8118bbbb0a18ac72d15d3a2b37b18d1bce1611fc60165f322cf57386', 'argentina', 'manug sipa', 'Client', 'miami', '2025-03-05 07:02:19'),
+(10, 'kuru', 'kuru@kuru.com', '82742b5469234a2239dd86f966284af74a9ebd70c6cfeff2ce2095dc4614017f', 'space station', 'AI', 'Client', 'herta ', '2025-03-05 07:35:13');
 
 --
 -- Indexes for dumped tables
@@ -91,21 +94,21 @@ INSERT INTO `users` (`id`, `name`, `email`, `password_hash`, `address`, `work`, 
 -- Indexes for table `feedback`
 --
 ALTER TABLE `feedback`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `user_id` (`user_id`);
+  ADD PRIMARY KEY (`fb_id`),
+  ADD KEY `feedback_ibfk_1` (`user_id`);
 
 --
 -- Indexes for table `ip_tracking`
 --
 ALTER TABLE `ip_tracking`
-  ADD PRIMARY KEY (`id`),
+  ADD PRIMARY KEY (`ip_id`),
   ADD UNIQUE KEY `ip_address` (`ip_address`);
 
 --
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`),
+  ADD PRIMARY KEY (`uid`),
   ADD UNIQUE KEY `email` (`email`);
 
 --
@@ -116,19 +119,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `feedback`
 --
 ALTER TABLE `feedback`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `fb_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `ip_tracking`
 --
 ALTER TABLE `ip_tracking`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ip_id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `uid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- Constraints for dumped tables
@@ -138,7 +141,7 @@ ALTER TABLE `users`
 -- Constraints for table `feedback`
 --
 ALTER TABLE `feedback`
-  ADD CONSTRAINT `feedback_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
+  ADD CONSTRAINT `feedback_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`uid`) ON DELETE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
