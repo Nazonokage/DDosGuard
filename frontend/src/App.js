@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import Navbar from './components/navbar';
+import Footer from './components/footer'; // Import the Footer component
 import Home from './pages/home';
 import DocsPage from './pages/DocsPage';
 import LoginPage from './pages/LoginPage';
@@ -49,6 +50,7 @@ const App = () => {
             </Route>
           </Routes>
         </div>
+        <Footer /> {/* Add the Footer component here */}
       </Router>
     </AuthProvider>
   );

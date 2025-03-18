@@ -292,3 +292,5 @@ ddos_guard.honeypot()`}
 };
 
 export default DocsPage;
+
+// http://192.168.1.3:3080/ddosguard

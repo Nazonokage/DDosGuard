@@ -22,7 +22,7 @@ def create_app():
     db.init_app(app)
 
     # Enable CORS for specific origin (React frontend)
-    CORS(app, origins=["http://localhost:3080/ddosguard","http://192.168.1.8:3080/ddosguard"])  # Restrict to React frontend
+    # CORS(app, origins=["http://localhost:3080/ddosguard","http://192.168.1.8:3080/ddosguard"])  # Restrict to React frontend
 
     @app.before_request
     def apply_security():
