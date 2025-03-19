@@ -55,17 +55,17 @@ if __name__ == '__main__':
     <div className="p-8">
       <h2 className="text-2xl font-bold mb-4">CAPTCHA Simulation</h2>
 
-      <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+      <div className="bg-gray-700 p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold mb-4">How CAPTCHA Works</h3>
-        <p className="text-gray-700">
+        <p className="text-gray-100">
           <strong>CAPTCHA</strong> prevents automated bots from performing actions like form submissions or login attempts. It requires users to complete a challenge (e.g., identifying objects or solving puzzles) to prove they are human.
         </p>
-        <p className="text-gray-700 mt-4">
+        <p className="text-gray-100 mt-4">
           In the sample code, we use <code>Flask-ReCaptcha</code> to integrate Google reCAPTCHA. If the CAPTCHA verification fails, the request is blocked with a <code>403 Forbidden</code> response.
         </p>
       </div>
 
-      <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow-md">
+      <div className="mt-8 bg-gray-700 p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold mb-4">CAPTCHA Implementation</h3>
         <div className="bg-gray-800 text-white p-4 rounded-lg mb-4">
           <pre className="whitespace-pre-wrap">{sampleCode}</pre>

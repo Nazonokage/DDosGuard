@@ -6,20 +6,25 @@ body {
   line-height: 1.6;
 }
 
-/* Floating animation for the mascot */
+
+
 @keyframes float {
-  0% { transform: translateY(0); }
-  15% { transform: translateY(-1px); }
-  30% { transform: translateY(-2px); }
-  50% { transform: translateY(-3px); }
-  70% { transform: translateY(-2px); }
-  85% { transform: translateY(-1px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
 }
 
-.animate-float {
-  animation: float 60s ease-in-out infinite;
+.animatefloat {
+  animation: float 3s ease-in-out infinite;
 }
+
+
 
 
 .neumorphic {

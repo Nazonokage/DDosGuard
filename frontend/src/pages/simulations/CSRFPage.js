@@ -55,17 +55,17 @@ if __name__ == '__main__':
     <div className="p-8">
       <h2 className="text-2xl font-bold mb-4">CSRF Protection Simulation</h2>
 
-      <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+      <div className="bg-gray-700 p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold mb-4">How CSRF Protection Works</h3>
-        <p className="text-gray-700">
+        <p className="text-gray-100">
           <strong>CSRF (Cross-Site Request Forgery)</strong> attacks trick users into performing actions they didn’t intend to, such as changing account settings or making purchases. To prevent this, we use <i>CSRF tokens</i> to validate that requests originate from the same site.
         </p>
-        <p className="text-gray-700 mt-4">
+        <p className="text-gray-100 mt-4">
           In the sample code, we use <code>Flask-WTF</code> to automatically generate and validate CSRF tokens. Any request without a valid token is rejected with a <code>403 Forbidden</code> status.
         </p>
       </div>
 
-      <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow-md">
+      <div className="mt-8 bg-gray-700 p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold mb-4">CSRF Protection Implementation</h3>
         <div className="bg-gray-800 text-white p-4 rounded-lg mb-4">
           <pre className="whitespace-pre-wrap">{sampleCode}</pre>

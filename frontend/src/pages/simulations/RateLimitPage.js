@@ -62,7 +62,7 @@ if __name__ == '__main__':
       <h2 className="text-2xl font-bold mb-4">Rate Limiting Simulation</h2>
 
       {/* Visuals: Botnet Icons and Chart */}
-      <div className="bg-gray-100 p-6 rounded-lg shadow-md mb-6">
+      <div className="bg-gray-700 p-6 rounded-lg shadow-md mb-6">
         <h3 className="text-xl font-semibold mb-4">How Rate Limiting Prevents DDoS/DoS Attacks</h3>
         <div className="flex items-center justify-center space-x-4 mb-4">
           <div className="text-center">
@@ -74,16 +74,16 @@ if __name__ == '__main__':
             <p className="text-sm">Server</p>
           </div>
         </div>
-        <p className="text-gray-700">
+        <p className="text-gray-100">
           <strong>Rate limiting</strong> restricts the number of requests a client can make within a specific time frame. This is crucial for mitigating <i>DDoS/DoS attacks</i>, where attackers flood the server with excessive requests to overwhelm it.
         </p>
-        <p className="text-gray-700 mt-4">
+        <p className="text-gray-100 mt-4">
           In the sample code, we use <code>Flask-Limiter</code> to limit requests to <strong>100 per minute</strong> per IP address. If a client exceeds this limit, the server responds with a <code>429 Too Many Requests</code> status, effectively blocking the attack.
         </p>
       </div>
 
       {/* Rate Limiting Implementation */}
-      <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+      <div className="bg-gray-700 p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold mb-4">Rate Limiting Implementation</h3>
         <div className="bg-gray-800 text-white p-4 rounded-lg mb-4">
           <pre className="whitespace-pre-wrap">{sampleCode}</pre>

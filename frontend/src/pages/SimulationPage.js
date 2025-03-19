@@ -47,7 +47,6 @@ const SimulationPage = () => {
           </svg>
         </button>
 
-        {/* Sidebar (Left) - Hidden on mobile, shown on desktop */}
         <div
           className={`w-64 bg-[#1e293b] text-white p-6 shadow-lg fixed h-full overflow-y-auto border-r border-gray-700 transform transition-transform duration-200 ease-in-out ${
             isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
@@ -93,7 +92,7 @@ const SimulationPage = () => {
           </ul>
         </div>
 
-        {/* Main Content (Middle) */}
+        {/* Main Content sa punta */}
         <div className={`flex-1 ml-0 md:ml-64 p-8 overflow-y-auto ${isIntroductionPage ? 'mr-0' : 'mr-0 md:mr-96'} text-gray-300`}>
           {/* Terminal and Response Section (Above on Mobile) */}
           {!isIntroductionPage && (
@@ -120,11 +119,11 @@ const SimulationPage = () => {
             </div>
           )}
 
-          {/* Outlet for rendering child routes */}
+          {/* content sng simulations*/}
           <Outlet />
         </div>
 
-        {/* Terminal and Response Section (Right) - Hidden on mobile, shown on desktop */}
+        {/* content kung nka mobile view*/}
         {!isIntroductionPage && (
           <div className="hidden md:block w-96 bg-[#1e293b] p-6 shadow-lg fixed right-0 h-full overflow-y-auto border-l border-gray-700">
             <div className="bg-[#334155] p-4 rounded-lg mb-6 text-blue-300">

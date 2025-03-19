@@ -359,7 +359,7 @@ if __name__ == "__main__":
       </div>
 
      {/* Simulation Controls */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
         {/* Normal Traffic Section */}
         <div className="bg-[#1e293b] p-6 rounded-lg shadow-md border border-gray-700">
           <div className="flex items-center mb-4">
@@ -475,7 +475,7 @@ if __name__ == "__main__":
       </div>
 
       {/* DDoS Attack Section */}
-      <div className="bg-gray-800 p-4 md:p-6 rounded-lg shadow-md">
+      <div className="bg-gray-800 p-4 md:p-6 rounded-lg shadow-md mb-6">
         <h3 className="text-xl font-semibold mb-4">DDoS Attack</h3>
         <p className="mb-4 text-gray-300">
           This simulates a Distributed Denial of Service (DDoS) attack using a botnet. The server is overwhelmed by requests 

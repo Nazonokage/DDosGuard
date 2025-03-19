@@ -44,9 +44,9 @@ if __name__ == '__main__':
     <div className="p-8">
       <h2 className="text-2xl font-bold mb-4">Tor Blocking Simulation</h2>
 
-      <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+      <div className="bg-gray-700 p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold mb-4">How Tor Blocking Prevents DDoS/DoS Attacks</h3>
-        <p className="text-gray-700">
+        <p className="text-gray-100">
           <strong>Tor Blocking</strong> prevents requests from the Tor network, which is often used to anonymize <i>DDoS/DoS attacks</i>. By blocking Tor exit nodes, you can reduce the risk of abuse.
         </p>
         <p className="text-gray-700 mt-4">
@@ -54,7 +54,7 @@ if __name__ == '__main__':
         </p>
       </div>
 
-      <div className="mt-8 bg-gray-100 p-6 rounded-lg shadow-md">
+      <div className="mt-8 bg-gray-700 p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold mb-4">Tor Blocking Implementation</h3>
         <div className="bg-gray-800 text-white p-4 rounded-lg mb-4">
           <pre className="whitespace-pre-wrap">{sampleCode}</pre>

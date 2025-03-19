@@ -16,7 +16,6 @@ const RegisterPage = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
 
-    // Check if passwords match
     if (password !== confirmPassword) {
       setError('Passwords do not match');
       return;
@@ -28,11 +27,11 @@ const RegisterPage = () => {
         email,
         password,
         address,
-        work, // Position/role
-        company, // Company/workplace
+        work,
+        company, 
       });
       if (response.data.message) {
-        navigate('/login'); // Redirect to login after successful registration
+        navigate('/login'); 
       }
     } catch (err) {
       setError(err.response?.data?.error || 'Registration failed');

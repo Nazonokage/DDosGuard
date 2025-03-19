@@ -8,13 +8,13 @@ const LoginPage = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
-  const { setUser } = useAuth(); // Use useAuth to access setUser
+  const { setUser } = useAuth(); 
 
   const handleLogin = async (e) => {
     e.preventDefault();
     
     try {
-      await fetchCsrfToken(); // Fetch a fresh CSRF token before login
+      await fetchCsrfToken(); // png fetch csrf  token sa backend
       
       const response = await axios.post('/auth/login', { email, password });
 
@@ -24,7 +24,7 @@ const LoginPage = () => {
           name: response.data.user.name,
           type: response.data.user.type,
         });
-        navigate('/guides'); // Redirect to GuidesPage after successful login
+        navigate('/guides'); 
       }
     } catch (err) {
       setError(err.response?.data?.error || 'Login failed');

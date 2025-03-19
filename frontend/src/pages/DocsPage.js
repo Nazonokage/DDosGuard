@@ -90,11 +90,11 @@ const DocsPage = () => {
             protect Python web applications from DDoS attacks, SQL injection, XSS, CSRF, and more.
           </p>
 
-          <img
+          {/* <img
             src={`${process.env.PUBLIC_URL}/img/mapache-pedro.gif`}
             alt="DDoS Simulation"
             className="w-64 md:w-96 rounded-lg shadow-lg"
-            />
+            /> */}
 
         </section>
 

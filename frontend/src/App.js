@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import Navbar from './components/navbar';
-import Footer from './components/footer'; // Import the Footer component
+import Footer from './components/footer'; 
 import Home from './pages/home';
 import DocsPage from './pages/DocsPage';
 import LoginPage from './pages/LoginPage';
@@ -18,7 +18,7 @@ import CSRFPage from './pages/simulations/CSRFPage';
 import CaptchaPage from './pages/simulations/CaptchaPage';
 import WAFPage from './pages/simulations/WAFPage';
 import TorBlockPage from './pages/simulations/TorBlockPage';
-import ProtectedRoute from './components/ProtectedRoute'; // Import the ProtectedRoute component
+import ProtectedRoute from './components/ProtectedRoute'; 
 import './styles/global.css';
 
 const App = () => {
@@ -50,7 +50,7 @@ const App = () => {
             </Route>
           </Routes>
         </div>
-        <Footer /> {/* Add the Footer component here */}
+        <Footer /> 
       </Router>
     </AuthProvider>
   );

@@ -7,9 +7,9 @@ const Home = () => {
       {/* Left: Moving Image */}
       <div className="md:w-1/2 flex justify-center">
         <img
-          src={`${process.env.PUBLIC_URL}/img/mapache-pedro.gif`}
+          src={`${process.env.PUBLIC_URL}/img/logo.png`}
           alt="DDoS Simulation"
-          className="w-64 md:w-96 animate-bounce"
+          className="w-64 md:w-96 animatefloat" //animate-bounce
         />
       </div>
 
