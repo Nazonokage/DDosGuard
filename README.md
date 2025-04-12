@@ -1,6 +1,6 @@
 ---
 
-# **PyDDoSGuard** 🛡️
+## **PyDDoSGuard** 🛡️
 
 **Your Ultimate Python Defense Against DDoS Attacks, Hackers, and Script Kiddies!**
 
