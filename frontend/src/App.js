@@ -5,6 +5,7 @@ import { AuthProvider } from './context/AuthContext';
 import Navbar from './components/navbar';
 import Footer from './components/footer'; 
 import Home from './pages/home';
+import AccountSettingsPage from './pages/AccountSettingsPage';
 import DocsPage from './pages/DocsPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
@@ -35,6 +36,7 @@ const App = () => {
 
             {/* Protected routes */}
             <Route element={<ProtectedRoute />}>
+              <Route path="/account-settings" element={<AccountSettingsPage />} />
               <Route path="/guides" element={<GuidesPage />} />
               <Route path="/docs" element={<DocsPage />} />
               <Route path="/feedback" element={<FeedbackPage />} />

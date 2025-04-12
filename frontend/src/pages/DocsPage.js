@@ -1,3 +1,5 @@
+// DocsPage.js old ver
+
 import React, { useState } from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
@@ -18,6 +20,11 @@ const DocsPage = () => {
     { id: "configuration", label: "Configuration" },
     { id: "security", label: "Security Considerations" },
     { id: "license", label: "License" },
+    { type: "separator" }, // Add a separator
+    { id: "monitoring-intro", label: "Monitoring System" },
+    { id: "monitoring-features", label: "Monitoring Features" },
+    { id: "monitoring-install", label: "Monitoring Installation" },
+    { id: "monitoring-usage", label: "Monitoring Usage" }
   ];
 
   const scrollToSection = (id) => {
@@ -47,6 +54,15 @@ const DocsPage = () => {
     }
   };
 
+  const handleDownloadMonitoring = () => {
+    const link = document.createElement("a");
+    link.href = `${process.env.PUBLIC_URL}/app/app.rar`;
+    link.setAttribute("download", "ddos-monitoring-app.rar");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="flex bg-gray-900 text-white min-h-screen">
       {/* Mobile Hamburger Menu */}
@@ -66,13 +82,17 @@ const DocsPage = () => {
         <h2 className="text-xl font-bold text-blue-400 mb-4">PyDDoSGuard 🛡️</h2>
         <ul>
           {sidebarItems.map((item) => (
-            <li
-              key={item.id}
-              className="mb-2 cursor-pointer hover:text-blue-300"
-              onClick={() => scrollToSection(item.id)}
-            >
-              {item.label}
-            </li>
+            item.type === "separator" ? (
+              <hr key="separator" className="border-gray-700 my-4" />
+            ) : (
+              <li
+                key={item.id}
+                className="mb-2 cursor-pointer hover:text-blue-300"
+                onClick={() => scrollToSection(item.id)}
+              >
+                {item.label}
+              </li>
+            )
           ))}
         </ul>
       </div>
@@ -89,16 +109,8 @@ const DocsPage = () => {
             PyDDoSGuard is a lightweight, reusable, and <strong>free</strong> middleware library designed to
             protect Python web applications from DDoS attacks, SQL injection, XSS, CSRF, and more.
           </p>
-
-          {/* <img
-            src={`${process.env.PUBLIC_URL}/img/mapache-pedro.gif`}
-            alt="DDoS Simulation"
-            className="w-64 md:w-96 rounded-lg shadow-lg"
-            /> */}
-
         </section>
 
-       
         {/* Features */}
         <section id="features" className="mb-8">
           <h2 className="text-2xl font-semibold text-blue-300">🚀 Features</h2>
@@ -116,21 +128,21 @@ const DocsPage = () => {
 
         {/* Installation */}
         <section id="installation" className="mb-8">
-        <h2 className="text-2xl font-semibold text-blue-300">⚙️ Installation</h2>
-        <SyntaxHighlighter language="bash" style={dracula}>
-          {`pip install redis requests`}
-        </SyntaxHighlighter>
+          <h2 className="text-2xl font-semibold text-blue-300">⚙️ Installation</h2>
+          <SyntaxHighlighter language="bash" style={dracula}>
+            {`pip install redis requests`}
+          </SyntaxHighlighter>
 
-        {/* Download Button */}
-        <div className="mt-4">
-          <button
-            onClick={handleDownload}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-          >
-            Download PyDDoSGuard.py
-          </button>
-        </div>
-      </section>
+          {/* Download Button */}
+          <div className="mt-4">
+            <button
+              onClick={handleDownload}
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+            >
+              Download PyDDoSGuard.py
+            </button>
+          </div>
+        </section>
 
         {/* Integration */}
         <section id="integration" className="mb-8">
@@ -286,11 +298,76 @@ ddos_guard.honeypot()`}
           <h2 className="text-2xl font-semibold text-blue-300">📜 License</h2>
           <p>MIT License. Use it, share it, hack it (but only for good)!</p>
         </section>
+              <hr/>
+        {/* Monitoring System Introduction */}
+        <section id="monitoring-intro" className="mb-8 pt-12">
+          <h1 className="text-4xl font-bold text-blue-400">DDoS Monitoring System 📊</h1>
+          <p className="mt-4">
+            A real-time DDoS/DoS detection system with web interface, providing network monitoring, 
+            anomaly detection, and alerting capabilities.
+          </p>
+          
+          <div className="mt-4">
+            <button
+              onClick={handleDownloadMonitoring}
+              className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+            >
+              Download Monitoring App
+            </button>
+          </div>
+        </section>
+
+        {/* Monitoring Features */}
+        <section id="monitoring-features" className="mb-8">
+          <h2 className="text-2xl font-semibold text-blue-300">✨ Monitoring Features</h2>
+          <ul className="list-disc list-inside mt-2">
+            <li>Real-time network connection tracking</li>
+            <li>Traffic rate analysis (incoming/outgoing)</li>
+            <li>Process-level connection breakdown</li>
+            <li>Threshold-based alerts</li>
+            <li>Connection spike detection</li>
+            <li>Traffic volume anomalies detection</li>
+            <li>Interactive dashboard with historical data</li>
+            <li>System resource monitoring (CPU, memory)</li>
+          </ul>
+        </section>
+
+        {/* Monitoring Installation */}
+        <section id="monitoring-install" className="mb-8">
+          <h2 className="text-2xl font-semibold text-blue-300">🛠️ Monitoring Installation</h2>
+          <SyntaxHighlighter language="bash" style={dracula}>
+            {`# Clone the repository
+git clone https://github.com/Nazonokage/ddos_monitoring.git
+cd ddos_monitoring
+
+# Install dependencies
+pip install -r requirements.txt`}
+          </SyntaxHighlighter>
+        </section>
+
+        {/* Monitoring Usage */}
+        <section id="monitoring-usage" className="mb-8">
+          <h2 className="text-2xl font-semibold text-blue-300">🚀 Monitoring Usage</h2>
+          <SyntaxHighlighter language="bash" style={dracula}>
+            {`# Run the monitoring system
+python run.py
+
+# Access the web interface at:
+http://localhost:8060`}
+          </SyntaxHighlighter>
+          <h3 className="text-xl font-semibold mt-4 text-blue-200">Dashboard Features</h3>
+          <ul className="list-disc list-inside mt-2">
+            <li>Start/Stop monitoring with button controls</li>
+            <li>Real-time connection count vs. threshold</li>
+            <li>Network traffic rate visualization</li>
+            <li>Top processes making connections</li>
+            <li>System resource usage monitoring</li>
+            <li>Alert history and notifications</li>
+          </ul>
+        </section>
       </div>
     </div>
   );
 };
 
 export default DocsPage;
-
-// http://192.168.1.3:3080/ddosguard

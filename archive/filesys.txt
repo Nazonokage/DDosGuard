@@ -2,6 +2,7 @@ React frontend
 ├── /public
 │   ├── index.html              # Main HTML file
 │   ├── favicon.ico             # Site icon
+│   ├── app/Monitoring.exe
 │   ├── img/                    # Static images
 │   │   ├── mapache-pedro.gif
 ├── /src
