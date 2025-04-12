@@ -1,0 +1,9 @@
+netsh advfirewall firewall add rule name="Allow React" dir=in action=allow protocol=TCP localport=3080
+netsh advfirewall firewall add rule name="Allow Flask" dir=in action=allow protocol=TCP localport=5050
+
+netsh advfirewall firewall delete rule name="Allow React"
+netsh advfirewall firewall delete rule name="Allow Flask"
+
+
+
+npm init react-app frontend --verbose
