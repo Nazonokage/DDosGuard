@@ -27,7 +27,7 @@ const LoadingSpinner = () => (
 
 const App = () => {
   return (
-    <Router basename="/ddosguard">
+    <Router>
       <Navbar />
       <div className="pt-16">
         <Suspense fallback={<LoadingSpinner />}>

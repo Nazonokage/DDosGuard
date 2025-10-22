@@ -34,7 +34,7 @@ const DocsPage = () => {
   const handleDownload = () => {
     // Download the actual PyDDoSGuard.py file
     const link = document.createElement("a");
-    link.href = `${process.env.PUBLIC_URL}/app/pyddosguard.py`;
+    link.href = `/app/pyddosguard.py`;
     link.setAttribute("download", "pyddosguard.py");
     document.body.appendChild(link);
     link.click();
