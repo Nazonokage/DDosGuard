@@ -4,7 +4,6 @@ import { Chart } from 'react-google-charts';
 
 const WAFPage = () => {
   const { setTerminalLogs, setStatus, setRequestsReceived, setResponseTime } = useContext(SimulationContext);
-  const [isRunning, setIsRunning] = useState(false);
   const [isAttackRunning, setIsAttackRunning] = useState(false);
   const [isDefenseRunning, setIsDefenseRunning] = useState(false);
   const [blockedRequests, setBlockedRequests] = useState(0);
@@ -149,8 +148,8 @@ waf = WAF(app)
 @waf.rule('sql_injection')
 def detect_sql_injection(request):
     sql_patterns = [
-        r"union\s+select", r"drop\s+table", r"insert\s+into",
-        r"delete\s+from", r"update\s+set", r"or\s+1=1"
+        r"union\\s+select", r"drop\\s+table", r"insert\\s+into",
+        r"delete\\s+from", r"update\\s+set", r"or\\s+1=1"
     ]
     for pattern in sql_patterns:
         if re.search(pattern, request.data.decode().lower()):
@@ -161,7 +160,7 @@ def detect_sql_injection(request):
 def detect_xss(request):
     xss_patterns = [
         r"<script[^>]*>.*?</script>", r"javascript:", 
-        r"on\w+\s*=", r"<iframe[^>]*>"
+        r"on\\w+\\s*=", r"<iframe[^>]*>"
     ]
     for pattern in xss_patterns:
         if re.search(pattern, request.data.decode().lower()):

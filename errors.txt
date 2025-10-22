@@ -1,0 +1,602 @@
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 4:11-118
+Module not found: Error: Can't resolve 'refractor/lang/abap.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 7:11-118
+Module not found: Error: Can't resolve 'refractor/lang/abnf.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 10:11-134
+Module not found: Error: Can't resolve 'refractor/lang/actionscript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 13:11-116
+Module not found: Error: Can't resolve 'refractor/lang/ada.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 16:11-118
+Module not found: Error: Can't resolve 'refractor/lang/agda.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 19:11-114
+Module not found: Error: Can't resolve 'refractor/lang/al.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 22:11-122
+Module not found: Error: Can't resolve 'refractor/lang/antlr4.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 25:11-130
+Module not found: Error: Can't resolve 'refractor/lang/apacheconf.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 28:11-118
+Module not found: Error: Can't resolve 'refractor/lang/apex.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 31:11-116
+Module not found: Error: Can't resolve 'refractor/lang/apl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 34:11-132
+Module not found: Error: Can't resolve 'refractor/lang/applescript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 37:11-116
+Module not found: Error: Can't resolve 'refractor/lang/aql.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 40:11-124
+Module not found: Error: Can't resolve 'refractor/lang/arduino.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 43:11-118
+Module not found: Error: Can't resolve 'refractor/lang/arff.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 46:11-122
+Module not found: Error: Can't resolve 'refractor/lang/armasm.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 49:11-122
+Module not found: Error: Can't resolve 'refractor/lang/arturo.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 52:11-126
+Module not found: Error: Can't resolve 'refractor/lang/asciidoc.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 55:11-124
+Module not found: Error: Can't resolve 'refractor/lang/asm6502.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 58:11-126
+Module not found: Error: Can't resolve 'refractor/lang/asmatmel.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 61:11-122
+Module not found: Error: Can't resolve 'refractor/lang/aspnet.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 64:11-130
+Module not found: Error: Can't resolve 'refractor/lang/autohotkey.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 67:11-122
+Module not found: Error: Can't resolve 'refractor/lang/autoit.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 70:11-126
+Module not found: Error: Can't resolve 'refractor/lang/avisynth.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 73:11-125
+Module not found: Error: Can't resolve 'refractor/lang/avro-idl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 76:11-116
+Module not found: Error: Can't resolve 'refractor/lang/awk.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 79:11-118
+Module not found: Error: Can't resolve 'refractor/lang/bash.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 82:11-120
+Module not found: Error: Can't resolve 'refractor/lang/basic.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 85:11-120
+Module not found: Error: Can't resolve 'refractor/lang/batch.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 88:11-122
+Module not found: Error: Can't resolve 'refractor/lang/bbcode.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 91:11-116
+Module not found: Error: Can't resolve 'refractor/lang/bbj.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 94:11-120
+Module not found: Error: Can't resolve 'refractor/lang/bicep.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 97:11-118
+Module not found: Error: Can't resolve 'refractor/lang/birb.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 100:11-120
+Module not found: Error: Can't resolve 'refractor/lang/bison.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 103:11-116
+Module not found: Error: Can't resolve 'refractor/lang/bnf.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 106:11-116
+Module not found: Error: Can't resolve 'refractor/lang/bqn.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 109:11-128
+Module not found: Error: Can't resolve 'refractor/lang/brainfuck.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 112:11-134
+Module not found: Error: Can't resolve 'refractor/lang/brightscript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 115:11-116
+Module not found: Error: Can't resolve 'refractor/lang/bro.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 118:11-116
+Module not found: Error: Can't resolve 'refractor/lang/bsl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 121:11-112
+Module not found: Error: Can't resolve 'refractor/lang/c.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 124:11-126
+Module not found: Error: Can't resolve 'refractor/lang/cfscript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 127:11-130
+Module not found: Error: Can't resolve 'refractor/lang/chaiscript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 130:11-116
+Module not found: Error: Can't resolve 'refractor/lang/cil.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 133:11-120
+Module not found: Error: Can't resolve 'refractor/lang/cilkc.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 136:11-124
+Module not found: Error: Can't resolve 'refractor/lang/cilkcpp.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 139:11-120
+Module not found: Error: Can't resolve 'refractor/lang/clike.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 142:11-124
+Module not found: Error: Can't resolve 'refractor/lang/clojure.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 145:11-120
+Module not found: Error: Can't resolve 'refractor/lang/cmake.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 148:11-120
+Module not found: Error: Can't resolve 'refractor/lang/cobol.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 151:11-134
+Module not found: Error: Can't resolve 'refractor/lang/coffeescript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 154:11-128
+Module not found: Error: Can't resolve 'refractor/lang/concurnas.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 157:11-126
+Module not found: Error: Can't resolve 'refractor/lang/cooklang.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 160:11-116
+Module not found: Error: Can't resolve 'refractor/lang/coq.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 163:11-116
+Module not found: Error: Can't resolve 'refractor/lang/cpp.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 166:11-124
+Module not found: Error: Can't resolve 'refractor/lang/crystal.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 169:11-122
+Module not found: Error: Can't resolve 'refractor/lang/csharp.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 172:11-122
+Module not found: Error: Can't resolve 'refractor/lang/cshtml.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 175:11-116
+Module not found: Error: Can't resolve 'refractor/lang/csp.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 178:11-129
+Module not found: Error: Can't resolve 'refractor/lang/css-extras.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 181:11-116
+Module not found: Error: Can't resolve 'refractor/lang/css.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 184:11-116
+Module not found: Error: Can't resolve 'refractor/lang/csv.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 187:11-116
+Module not found: Error: Can't resolve 'refractor/lang/cue.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 190:11-122
+Module not found: Error: Can't resolve 'refractor/lang/cypher.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 193:11-112
+Module not found: Error: Can't resolve 'refractor/lang/d.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 196:11-118
+Module not found: Error: Can't resolve 'refractor/lang/dart.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 199:11-128
+Module not found: Error: Can't resolve 'refractor/lang/dataweave.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 202:11-116
+Module not found: Error: Can't resolve 'refractor/lang/dax.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 205:11-120
+Module not found: Error: Can't resolve 'refractor/lang/dhall.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 208:11-118
+Module not found: Error: Can't resolve 'refractor/lang/diff.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 211:11-122
+Module not found: Error: Can't resolve 'refractor/lang/django.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 214:11-134
+Module not found: Error: Can't resolve 'refractor/lang/dns-zone-file.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 217:11-122
+Module not found: Error: Can't resolve 'refractor/lang/docker.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 220:11-116
+Module not found: Error: Can't resolve 'refractor/lang/dot.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 223:11-118
+Module not found: Error: Can't resolve 'refractor/lang/ebnf.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 226:11-134
+Module not found: Error: Can't resolve 'refractor/lang/editorconfig.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 229:11-122
+Module not found: Error: Can't resolve 'refractor/lang/eiffel.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 232:11-116
+Module not found: Error: Can't resolve 'refractor/lang/ejs.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 235:11-122
+Module not found: Error: Can't resolve 'refractor/lang/elixir.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 238:11-116
+Module not found: Error: Can't resolve 'refractor/lang/elm.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 241:11-116
+Module not found: Error: Can't resolve 'refractor/lang/erb.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 244:11-122
+Module not found: Error: Can't resolve 'refractor/lang/erlang.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 247:11-120
+Module not found: Error: Can't resolve 'refractor/lang/etlua.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 250:11-135
+Module not found: Error: Can't resolve 'refractor/lang/excel-formula.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 253:11-122
+Module not found: Error: Can't resolve 'refractor/lang/factor.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 256:11-124
+Module not found: Error: Can't resolve 'refractor/lang/false.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 259:11-156
+Module not found: Error: Can't resolve 'refractor/lang/firestore-security-rules.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 262:11-118
+Module not found: Error: Can't resolve 'refractor/lang/flow.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 265:11-124
+Module not found: Error: Can't resolve 'refractor/lang/fortran.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 268:11-122
+Module not found: Error: Can't resolve 'refractor/lang/fsharp.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 271:11-116
+Module not found: Error: Can't resolve 'refractor/lang/ftl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 274:11-116
+Module not found: Error: Can't resolve 'refractor/lang/gap.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 277:11-120
+Module not found: Error: Can't resolve 'refractor/lang/gcode.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 280:11-126
+Module not found: Error: Can't resolve 'refractor/lang/gdscript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 283:11-122
+Module not found: Error: Can't resolve 'refractor/lang/gedcom.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 286:11-124
+Module not found: Error: Can't resolve 'refractor/lang/gettext.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 289:11-124
+Module not found: Error: Can't resolve 'refractor/lang/gherkin.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 292:11-116
+Module not found: Error: Can't resolve 'refractor/lang/git.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 295:11-118
+Module not found: Error: Can't resolve 'refractor/lang/glsl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 298:11-116
+Module not found: Error: Can't resolve 'refractor/lang/gml.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 301:11-114
+Module not found: Error: Can't resolve 'refractor/lang/gn.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 304:11-127
+Module not found: Error: Can't resolve 'refractor/lang/go-module.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 307:11-114
+Module not found: Error: Can't resolve 'refractor/lang/go.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 310:11-122
+Module not found: Error: Can't resolve 'refractor/lang/gradle.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 313:11-124
+Module not found: Error: Can't resolve 'refractor/lang/graphql.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 316:11-122
+Module not found: Error: Can't resolve 'refractor/lang/groovy.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 319:11-118
+Module not found: Error: Can't resolve 'refractor/lang/haml.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 322:11-130
+Module not found: Error: Can't resolve 'refractor/lang/handlebars.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 325:11-124
+Module not found: Error: Can't resolve 'refractor/lang/haskell.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 328:11-118
+Module not found: Error: Can't resolve 'refractor/lang/haxe.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 331:11-116
+Module not found: Error: Can't resolve 'refractor/lang/hcl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 334:11-118
+Module not found: Error: Can't resolve 'refractor/lang/hlsl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 337:11-118
+Module not found: Error: Can't resolve 'refractor/lang/hoon.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 340:11-118
+Module not found: Error: Can't resolve 'refractor/lang/hpkp.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 343:11-118
+Module not found: Error: Can't resolve 'refractor/lang/hsts.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 346:11-118
+Module not found: Error: Can't resolve 'refractor/lang/http.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 349:11-128
+Module not found: Error: Can't resolve 'refractor/lang/ichigojam.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 352:11-118
+Module not found: Error: Can't resolve 'refractor/lang/icon.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 355:11-144
+Module not found: Error: Can't resolve 'refractor/lang/icu-message-format.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 358:11-120
+Module not found: Error: Can't resolve 'refractor/lang/idris.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 361:11-120
+Module not found: Error: Can't resolve 'refractor/lang/iecst.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 364:11-122
+Module not found: Error: Can't resolve 'refractor/lang/ignore.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 367:11-124
+Module not found: Error: Can't resolve 'refractor/lang/inform7.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 370:11-116
+Module not found: Error: Can't resolve 'refractor/lang/ini.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 373:11-114
+Module not found: Error: Can't resolve 'refractor/lang/io.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 376:11-112
+Module not found: Error: Can't resolve 'refractor/lang/j.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 379:11-118
+Module not found: Error: Can't resolve 'refractor/lang/java.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 382:11-124
+Module not found: Error: Can't resolve 'refractor/lang/javadoc.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 385:11-132
+Module not found: Error: Can't resolve 'refractor/lang/javadoclike.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 388:11-130
+Module not found: Error: Can't resolve 'refractor/lang/javascript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 391:11-138
+Module not found: Error: Can't resolve 'refractor/lang/javastacktrace.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 394:11-118
+Module not found: Error: Can't resolve 'refractor/lang/jexl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 397:11-120
+Module not found: Error: Can't resolve 'refractor/lang/jolie.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 400:11-114
+Module not found: Error: Can't resolve 'refractor/lang/jq.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 403:11-127
+Module not found: Error: Can't resolve 'refractor/lang/js-extras.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 406:11-133
+Module not found: Error: Can't resolve 'refractor/lang/js-templates.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 409:11-120
+Module not found: Error: Can't resolve 'refractor/lang/jsdoc.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 412:11-118
+Module not found: Error: Can't resolve 'refractor/lang/json.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 415:11-120
+Module not found: Error: Can't resolve 'refractor/lang/json5.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 418:11-120
+Module not found: Error: Can't resolve 'refractor/lang/jsonp.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 421:11-134
+Module not found: Error: Can't resolve 'refractor/lang/jsstacktrace.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 424:11-116
+Module not found: Error: Can't resolve 'refractor/lang/jsx.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 427:11-120
+Module not found: Error: Can't resolve 'refractor/lang/julia.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 430:11-130
+Module not found: Error: Can't resolve 'refractor/lang/keepalived.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 433:11-122
+Module not found: Error: Can't resolve 'refractor/lang/keyman.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 436:11-122
+Module not found: Error: Can't resolve 'refractor/lang/kotlin.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 439:11-120
+Module not found: Error: Can't resolve 'refractor/lang/kumir.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 442:11-120
+Module not found: Error: Can't resolve 'refractor/lang/kusto.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 445:11-120
+Module not found: Error: Can't resolve 'refractor/lang/latex.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 448:11-120
+Module not found: Error: Can't resolve 'refractor/lang/latte.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 451:11-118
+Module not found: Error: Can't resolve 'refractor/lang/less.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 454:11-126
+Module not found: Error: Can't resolve 'refractor/lang/lilypond.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 457:11-135
+Module not found: Error: Can't resolve 'refractor/lang/linker-script.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 460:11-122
+Module not found: Error: Can't resolve 'refractor/lang/liquid.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 463:11-118
+Module not found: Error: Can't resolve 'refractor/lang/lisp.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 466:11-130
+Module not found: Error: Can't resolve 'refractor/lang/livescript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 469:11-118
+Module not found: Error: Can't resolve 'refractor/lang/llvm.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 472:11-116
+Module not found: Error: Can't resolve 'refractor/lang/log.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 475:11-124
+Module not found: Error: Can't resolve 'refractor/lang/lolcode.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 478:11-116
+Module not found: Error: Can't resolve 'refractor/lang/lua.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 481:11-120
+Module not found: Error: Can't resolve 'refractor/lang/magma.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 484:11-126
+Module not found: Error: Can't resolve 'refractor/lang/makefile.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 487:11-126
+Module not found: Error: Can't resolve 'refractor/lang/markdown.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 490:11-143
+Module not found: Error: Can't resolve 'refractor/lang/markup-templating.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 493:11-122
+Module not found: Error: Can't resolve 'refractor/lang/markup.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 496:11-118
+Module not found: Error: Can't resolve 'refractor/lang/mata.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 499:11-122
+Module not found: Error: Can't resolve 'refractor/lang/matlab.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 502:11-128
+Module not found: Error: Can't resolve 'refractor/lang/maxscript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 505:11-116
+Module not found: Error: Can't resolve 'refractor/lang/mel.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 508:11-124
+Module not found: Error: Can't resolve 'refractor/lang/mermaid.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 511:11-126
+Module not found: Error: Can't resolve 'refractor/lang/metafont.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 514:11-120
+Module not found: Error: Can't resolve 'refractor/lang/mizar.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 517:11-124
+Module not found: Error: Can't resolve 'refractor/lang/mongodb.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 520:11-122
+Module not found: Error: Can't resolve 'refractor/lang/monkey.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 523:11-130
+Module not found: Error: Can't resolve 'refractor/lang/moonscript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 526:11-118
+Module not found: Error: Can't resolve 'refractor/lang/n1ql.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 529:11-118
+Module not found: Error: Can't resolve 'refractor/lang/n4js.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 532:11-139
+Module not found: Error: Can't resolve 'refractor/lang/nand2tetris-hdl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 535:11-130
+Module not found: Error: Can't resolve 'refractor/lang/naniscript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 538:11-118
+Module not found: Error: Can't resolve 'refractor/lang/nasm.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 541:11-118
+Module not found: Error: Can't resolve 'refractor/lang/neon.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 544:11-120
+Module not found: Error: Can't resolve 'refractor/lang/nevod.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 547:11-120
+Module not found: Error: Can't resolve 'refractor/lang/nginx.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 550:11-116
+Module not found: Error: Can't resolve 'refractor/lang/nim.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 553:11-116
+Module not found: Error: Can't resolve 'refractor/lang/nix.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 556:11-118
+Module not found: Error: Can't resolve 'refractor/lang/nsis.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 559:11-130
+Module not found: Error: Can't resolve 'refractor/lang/objectivec.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 562:11-120
+Module not found: Error: Can't resolve 'refractor/lang/ocaml.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 565:11-118
+Module not found: Error: Can't resolve 'refractor/lang/odin.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 568:11-122
+Module not found: Error: Can't resolve 'refractor/lang/opencl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 571:11-126
+Module not found: Error: Can't resolve 'refractor/lang/openqasm.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 574:11-114
+Module not found: Error: Can't resolve 'refractor/lang/oz.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 577:11-122
+Module not found: Error: Can't resolve 'refractor/lang/parigp.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 580:11-122
+Module not found: Error: Can't resolve 'refractor/lang/parser.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 583:11-122
+Module not found: Error: Can't resolve 'refractor/lang/pascal.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 586:11-128
+Module not found: Error: Can't resolve 'refractor/lang/pascaligo.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 589:11-122
+Module not found: Error: Can't resolve 'refractor/lang/pcaxis.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 592:11-130
+Module not found: Error: Can't resolve 'refractor/lang/peoplecode.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 595:11-118
+Module not found: Error: Can't resolve 'refractor/lang/perl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 598:11-129
+Module not found: Error: Can't resolve 'refractor/lang/php-extras.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 601:11-116
+Module not found: Error: Can't resolve 'refractor/lang/php.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 604:11-122
+Module not found: Error: Can't resolve 'refractor/lang/phpdoc.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 607:11-127
+Module not found: Error: Can't resolve 'refractor/lang/plant-uml.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 610:11-120
+Module not found: Error: Can't resolve 'refractor/lang/plsql.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 613:11-130
+Module not found: Error: Can't resolve 'refractor/lang/powerquery.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 616:11-130
+Module not found: Error: Can't resolve 'refractor/lang/powershell.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 619:11-130
+Module not found: Error: Can't resolve 'refractor/lang/processing.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 622:11-122
+Module not found: Error: Can't resolve 'refractor/lang/prolog.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 625:11-122
+Module not found: Error: Can't resolve 'refractor/lang/promql.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 628:11-130
+Module not found: Error: Can't resolve 'refractor/lang/properties.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 631:11-126
+Module not found: Error: Can't resolve 'refractor/lang/protobuf.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 634:11-116
+Module not found: Error: Can't resolve 'refractor/lang/psl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 637:11-116
+Module not found: Error: Can't resolve 'refractor/lang/pug.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 640:11-122
+Module not found: Error: Can't resolve 'refractor/lang/puppet.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 643:11-118
+Module not found: Error: Can't resolve 'refractor/lang/pure.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 646:11-128
+Module not found: Error: Can't resolve 'refractor/lang/purebasic.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 649:11-130
+Module not found: Error: Can't resolve 'refractor/lang/purescript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 652:11-122
+Module not found: Error: Can't resolve 'refractor/lang/python.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 655:11-112
+Module not found: Error: Can't resolve 'refractor/lang/q.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 658:11-116
+Module not found: Error: Can't resolve 'refractor/lang/qml.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 661:11-118
+Module not found: Error: Can't resolve 'refractor/lang/qore.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 664:11-122
+Module not found: Error: Can't resolve 'refractor/lang/qsharp.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 667:11-112
+Module not found: Error: Can't resolve 'refractor/lang/r.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 670:11-122
+Module not found: Error: Can't resolve 'refractor/lang/racket.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 673:11-122
+Module not found: Error: Can't resolve 'refractor/lang/reason.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 676:11-120
+Module not found: Error: Can't resolve 'refractor/lang/regex.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 679:11-118
+Module not found: Error: Can't resolve 'refractor/lang/rego.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 682:11-120
+Module not found: Error: Can't resolve 'refractor/lang/renpy.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 685:11-126
+Module not found: Error: Can't resolve 'refractor/lang/rescript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 688:11-118
+Module not found: Error: Can't resolve 'refractor/lang/rest.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 691:11-116
+Module not found: Error: Can't resolve 'refractor/lang/rip.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 694:11-126
+Module not found: Error: Can't resolve 'refractor/lang/roboconf.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 697:11-138
+Module not found: Error: Can't resolve 'refractor/lang/robotframework.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 700:11-118
+Module not found: Error: Can't resolve 'refractor/lang/ruby.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 703:11-118
+Module not found: Error: Can't resolve 'refractor/lang/rust.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 706:11-116
+Module not found: Error: Can't resolve 'refractor/lang/sas.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 709:11-118
+Module not found: Error: Can't resolve 'refractor/lang/sass.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 712:11-120
+Module not found: Error: Can't resolve 'refractor/lang/scala.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 715:11-122
+Module not found: Error: Can't resolve 'refractor/lang/scheme.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 718:11-118
+Module not found: Error: Can't resolve 'refractor/lang/scss.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 721:11-135
+Module not found: Error: Can't resolve 'refractor/lang/shell-session.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 724:11-120
+Module not found: Error: Can't resolve 'refractor/lang/smali.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 727:11-128
+Module not found: Error: Can't resolve 'refractor/lang/smalltalk.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 730:11-122
+Module not found: Error: Can't resolve 'refractor/lang/smarty.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 733:11-116
+Module not found: Error: Can't resolve 'refractor/lang/sml.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 736:11-126
+Module not found: Error: Can't resolve 'refractor/lang/solidity.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 739:11-135
+Module not found: Error: Can't resolve 'refractor/lang/solution-file.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 742:11-116
+Module not found: Error: Can't resolve 'refractor/lang/soy.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 745:11-122
+Module not found: Error: Can't resolve 'refractor/lang/sparql.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 748:11-129
+Module not found: Error: Can't resolve 'refractor/lang/splunk-spl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 751:11-116
+Module not found: Error: Can't resolve 'refractor/lang/sqf.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 754:11-116
+Module not found: Error: Can't resolve 'refractor/lang/sql.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 757:11-126
+Module not found: Error: Can't resolve 'refractor/lang/squirrel.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 760:11-118
+Module not found: Error: Can't resolve 'refractor/lang/stan.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 763:11-120
+Module not found: Error: Can't resolve 'refractor/lang/stata.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 766:11-122
+Module not found: Error: Can't resolve 'refractor/lang/stylus.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 769:11-136
+Module not found: Error: Can't resolve 'refractor/lang/supercollider.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 772:11-120
+Module not found: Error: Can't resolve 'refractor/lang/swift.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 775:11-124
+Module not found: Error: Can't resolve 'refractor/lang/systemd.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 778:11-119
+Module not found: Error: Can't resolve 'refractor/lang/t4-cs.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 781:11-135
+Module not found: Error: Can't resolve 'refractor/lang/t4-templating.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 784:11-119
+Module not found: Error: Can't resolve 'refractor/lang/t4-vb.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 787:11-116
+Module not found: Error: Can't resolve 'refractor/lang/tap.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 790:11-116
+Module not found: Error: Can't resolve 'refractor/lang/tcl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 793:11-124
+Module not found: Error: Can't resolve 'refractor/lang/textile.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 796:11-118
+Module not found: Error: Can't resolve 'refractor/lang/toml.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 799:11-122
+Module not found: Error: Can't resolve 'refractor/lang/tremor.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 802:11-116
+Module not found: Error: Can't resolve 'refractor/lang/tsx.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 805:11-116
+Module not found: Error: Can't resolve 'refractor/lang/tt2.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 808:11-122
+Module not found: Error: Can't resolve 'refractor/lang/turtle.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 811:11-118
+Module not found: Error: Can't resolve 'refractor/lang/twig.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 814:11-130
+Module not found: Error: Can't resolve 'refractor/lang/typescript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 817:11-130
+Module not found: Error: Can't resolve 'refractor/lang/typoscript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 820:11-134
+Module not found: Error: Can't resolve 'refractor/lang/unrealscript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 823:11-124
+Module not found: Error: Can't resolve 'refractor/lang/uorazor.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 826:11-116
+Module not found: Error: Can't resolve 'refractor/lang/uri.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 829:11-112
+Module not found: Error: Can't resolve 'refractor/lang/v.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 832:11-118
+Module not found: Error: Can't resolve 'refractor/lang/vala.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 835:11-120
+Module not found: Error: Can't resolve 'refractor/lang/vbnet.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 838:11-126
+Module not found: Error: Can't resolve 'refractor/lang/velocity.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 841:11-124
+Module not found: Error: Can't resolve 'refractor/lang/verilog.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 844:11-118
+Module not found: Error: Can't resolve 'refractor/lang/vhdl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 847:11-116
+Module not found: Error: Can't resolve 'refractor/lang/vim.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 850:11-133
+Module not found: Error: Can't resolve 'refractor/lang/visual-basic.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 853:11-130
+Module not found: Error: Can't resolve 'refractor/lang/warpscript.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 856:11-118
+Module not found: Error: Can't resolve 'refractor/lang/wasm.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 859:11-123
+Module not found: Error: Can't resolve 'refractor/lang/web-idl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 862:11-118
+Module not found: Error: Can't resolve 'refractor/lang/wgsl.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 865:11-118
+Module not found: Error: Can't resolve 'refractor/lang/wiki.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 868:11-124
+Module not found: Error: Can't resolve 'refractor/lang/wolfram.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 871:11-118
+Module not found: Error: Can't resolve 'refractor/lang/wren.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 874:11-120
+Module not found: Error: Can't resolve 'refractor/lang/xeora.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 877:11-123
+Module not found: Error: Can't resolve 'refractor/lang/xml-doc.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 880:11-118
+Module not found: Error: Can't resolve 'refractor/lang/xojo.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 883:11-122
+Module not found: Error: Can't resolve 'refractor/lang/xquery.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 886:11-118
+Module not found: Error: Can't resolve 'refractor/lang/yaml.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 889:11-118
+Module not found: Error: Can't resolve 'refractor/lang/yang.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/async-languages/prism.js 892:11-116
+Module not found: Error: Can't resolve 'refractor/lang/zig.js' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm\async-languages'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/prism-async-light.js 5:11-6:25
+Module not found: Error: Can't resolve 'refractor/lib/core' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/prism-async.js 5:11-7:5
+Module not found: Error: Can't resolve 'refractor/lib/all' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/prism-light.js 2:0-47
+Module not found: Error: Can't resolve 'refractor/lib/core' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm'
+ERROR in ./node_modules/react-syntax-highlighter/dist/esm/prism.js 3:0-46
+Module not found: Error: Can't resolve 'refractor/lib/all' in 'D:\Akun files\Projects\inubrahan\CODES\JS\mgaproject2025\Reac Flask Capstone anti DDOS\frontend v7.1\node_modules\react-syntax-highlighter\dist\esm'

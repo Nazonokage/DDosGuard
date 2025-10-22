@@ -5,7 +5,6 @@ import '../../styles/SimulationPage.css';
 
 const RateLimitPage = () => {
   const { setTerminalLogs, setStatus, setRequestsReceived, setResponseTime } = useContext(SimulationContext);
-  const [isRunning, setIsRunning] = useState(false);
   const [isAttackRunning, setIsAttackRunning] = useState(false);
   const [isDefenseRunning, setIsDefenseRunning] = useState(false);
   const [rateLimit, setRateLimit] = useState(100);
