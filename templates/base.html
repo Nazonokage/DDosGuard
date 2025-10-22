@@ -1,0 +1,15 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}System Panel{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    {% include 'partials/navbar.html' %}
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+    {% include 'partials/footer.html' %}
+</body>
+</html>
