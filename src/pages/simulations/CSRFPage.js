@@ -4,7 +4,6 @@ import { Chart } from 'react-google-charts';
 
 const CSRFPage = () => {
   const { setTerminalLogs, setStatus, setRequestsReceived, setResponseTime } = useContext(SimulationContext);
-  const [isRunning, setIsRunning] = useState(false);
   const [isAttackRunning, setIsAttackRunning] = useState(false);
   const [isDefenseRunning, setIsDefenseRunning] = useState(false);
   const [blockedRequests, setBlockedRequests] = useState(0);

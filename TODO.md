@@ -1,21 +1,13 @@
-# Performance Optimization TODO List
+# ESLint Warnings Fix Plan
 
-## High Priority
-- [ ] **Interval Optimization**: Reduce setInterval frequency from 1s to 100ms for smoother updates, add proper cleanup
-- [ ] **Memoization**: Add React.memo, useMemo, and useCallback to prevent unnecessary re-renders
-- [ ] **Chart Debouncing**: Debounce chart data updates to reduce rendering overhead
-- [ ] **Terminal Virtualization**: Implement virtual scrolling for terminal logs to handle large log volumes
+## Tasks
+- [ ] Remove unused `isRunning` and `setIsRunning` from CSRFPage.js
+- [ ] Remove unused imports `useCallback` and `useMemo` from DDosPage.js
+- [ ] Fix intervalRef cleanup warning in DDosPage.js
+- [ ] Remove unused `isRunning` and `setIsRunning` from RateLimitPage.js
+- [ ] Remove unused `isRunning` and `setIsRunning` from WAFPage.js
+- [ ] Fix unnecessary escape characters in WAFPage.js regex patterns
 
-## Medium Priority
-- [ ] **Component Splitting**: Break down large simulation components into smaller, focused components
-- [ ] **State Optimization**: Use useReducer for complex state management in simulations
-- [ ] **Memory Leak Prevention**: Ensure all intervals and event listeners are properly cleaned up
-- [ ] **Bundle Splitting**: Implement code splitting for simulation components
-
-## Low Priority
-- [ ] **Image Optimization**: Optimize and lazy load images
-- [ ] **CSS Optimization**: Remove unused CSS and optimize animations
-- [ ] **Service Worker**: Add service worker for caching static assets
-
-## Completed
-- [x] **Lazy Loading**: Already implemented for route components
+## Followup Steps
+- [ ] Run `npm start` to verify warnings are resolved
+- [ ] Test application functionality

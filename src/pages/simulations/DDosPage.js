@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect, useCallback, useMemo, useRef } from 'react';
+import React, { useState, useContext, useEffect, useRef } from 'react';
 import { SimulationContext } from '../SimulationPage';
 import { Chart } from 'react-google-charts';
 
@@ -35,6 +35,7 @@ const DDosPage = () => {
     return () => {
       if (intervalRef.current) {
         clearInterval(intervalRef.current);
+        intervalRef.current = null;
       }
       setChartData([['Time', 'Normal Traffic', 'Attack Traffic', 'Blocked Traffic'], [0, 0, 0, 0]]);
       setTerminalLogs([]);
