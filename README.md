@@ -1,70 +1,317 @@
-# Getting Started with Create React App
+# DDoSGuard 🛡️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive educational platform for learning about DDoS attacks, defense mechanisms, and cybersecurity best practices. Built as a React frontend with Flask backend for comprehensive DDoS simulation and monitoring.
 
-## Available Scripts
+![DDoSGuard Logo](public/img/logo.png)
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+### Interactive Simulations
+- **DDoS Attack Simulation**: Experience distributed denial-of-service attacks with real-time visualization
+- **DoS Attack Simulation**: Single-source attack patterns and mitigation
+- **Layer 3/4 Attacks**: Network and transport layer attacks (SYN floods, UDP floods)
+- **Layer 7 Attacks**: Application layer attacks (HTTP floods, Slowloris)
+- **Defense Mechanisms**: WAF, rate limiting, geo-blocking, behavioral analysis
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Advanced Defense Features
+- **Real-time Threat Detection**: Machine learning-based anomaly detection
+- **Adaptive Defense Systems**: Self-learning security that adapts to attack patterns
+- **Incident Response**: Automated protocols for handling detected attacks
+- **Multi-layer Protection**: Comprehensive defense strategies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Educational Content
+- **Interactive Guides**: Step-by-step learning modules
+- **Real-world Scenarios**: Case studies of famous DDoS attacks
+- **Code Examples**: Python implementations for attacks and defenses
+- **Visual Analytics**: Charts and graphs for traffic analysis
 
-### `npm test`
+### Monitoring Integration
+- **PyDDOSGuard Tool**: Integrated Python monitoring system
+- **Real-time Dashboard**: Live traffic analysis and alerts
+- **Connection Monitoring**: Process-level network tracking
+- **Threat Intelligence**: Advanced threat scoring and reporting
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+### Frontend
+- **React 19** - Modern JavaScript framework
+- **React Router** - Client-side routing
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **React Google Charts** - Data visualization
+- **React Syntax Highlighter** - Code highlighting
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend
+- **Flask** - Python web framework
+- **PyDDOSGuard** - Custom DDoS monitoring tool
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Development Tools
+- **Create React App** - Build setup
+- **ESLint** - Code linting
+- **PostCSS** - CSS processing
+- **Autoprefixer** - CSS vendor prefixing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Installation
 
-### `npm run eject`
+### Prerequisites
+- Node.js 16+
+- npm or yarn
+- Python 3.8+ (for backend)
+- Git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Frontend Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/ddosguard-frontend.git
+   cd ddosguard-frontend
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Start development server**
+   ```bash
+   npm start
+   ```
 
-## Learn More
+   The app will run on [http://localhost:3080](http://localhost:3080) (configured for port 3080)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Backend Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Navigate to backend directory**
+   ```bash
+   cd ../backend  # Assuming backend is in sibling directory
+   ```
 
-### Code Splitting
+2. **Install Python dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **Run Flask backend**
+   ```bash
+   python app.py
+   ```
 
-### Analyzing the Bundle Size
+## 🚀 Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Frontend Scripts
+```bash
+npm start          # Start development server
+npm run build      # Build for production
+npm run build:prod # Production build with optimizations
+npm test           # Run tests
+npm run eject      # Eject from Create React App
+```
 
-### Making a Progressive Web App
+### Backend Scripts
+```bash
+python run.py      # Start Flask development server
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📁 Project Structure
 
-### Advanced Configuration
+```
+ddosguard-frontend/
+├── public/
+│   ├── app/           # Monitoring tool files
+│   │   ├── pyddosguard.py
+│   │   ├── monitoring.md
+│   │   └── executables/
+│   ├── img/           # Static images
+│   └── index.html     # HTML template
+├── src/
+│   ├── api/           # API integration
+│   ├── components/    # Reusable components
+│   │   ├── navbar.js
+│   │   ├── footer.js
+│   │   ├── terminal.js
+│   │   └── ResponseSimulator.js
+│   ├── context/       # React context
+│   ├── pages/         # Page components
+│   │   ├── home.js
+│   │   ├── DocsPage.js
+│   │   ├── GuidesPage.js
+│   │   ├── SimulationPage.js
+│   │   └── simulations/  # Simulation pages
+│   │       ├── DDosPage.js
+│   │       ├── RateLimitPage.js
+│   │       ├── CSRFPage.js
+│   │       └── ...
+│   ├── styles/        # CSS styles
+│   │   ├── global.css
+│   │   ├── navbar.css
+│   │   └── terminal.css
+│   ├── App.js         # Main app component
+│   └── index.js       # App entry point
+├── package.json
+├── tailwind.config.js
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🎯 Usage
 
-### Deployment
+### Getting Started
+1. Visit the home page to learn about DDoS attacks
+2. Navigate to **Simulations** → **Introduction** to begin
+3. Choose from various attack simulations
+4. Activate defense systems to see mitigation in action
+5. Monitor real-time logs in the terminal component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Simulation Types
 
-### `npm run build` fails to minify
+#### Attack Simulations
+- **Normal Traffic**: Baseline legitimate user behavior
+- **DoS Attack**: Single-source overwhelming traffic
+- **DDoS Attack**: Multi-source distributed attack
+- **Layer 3/4**: Network infrastructure attacks
+- **Layer 7**: Application layer attacks
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Defense Simulations
+- **Rate Limiting**: Request throttling per IP
+- **Web Application Firewall**: Pattern-based blocking
+- **Geo-blocking**: Geographic filtering
+- **Behavioral Analysis**: Anomaly detection
+- **Machine Learning**: Adaptive threat detection
+
+### Monitoring Integration
+
+The platform integrates with PyDDOSGuard for advanced monitoring:
+
+```bash
+# Run the monitoring tool
+python pyddosguard.py
+
+# Features include:
+# - Real-time connection tracking
+# - Traffic rate analysis
+# - Process monitoring
+# - Alert generation
+# - JSON data export
+```
+
+## 🔧 Configuration
+
+### Environment Variables
+Create a `.env` file in the root directory:
+
+```env
+REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_BASENAME=/ddosguard
+PORT=3080
+```
+
+### Build Configuration
+Modify `package.json` scripts for custom build processes:
+
+```json
+{
+  "homepage": "/ddosguard",
+  "scripts": {
+    "build:prod": "GENERATE_SOURCEMAP=false react-scripts build"
+  }
+}
+```
+
+## 📊 API Integration
+
+The frontend communicates with Flask backend via REST API:
+
+### Endpoints
+- `GET /api/simulations` - Get available simulations
+- `POST /api/simulate` - Start simulation
+- `GET /api/monitoring/data` - Real-time monitoring data
+- `POST /api/defense/activate` - Activate defense systems
+
+### Example API Call
+```javascript
+const response = await fetch('/api/simulations');
+const simulations = await response.json();
+```
+
+## 🎨 Customization
+
+### Styling
+- **Tailwind CSS**: Utility classes for rapid styling
+- **Custom CSS**: Component-specific styles in `src/styles/`
+- **Theme**: Dark theme optimized for cybersecurity interface
+
+### Components
+- **Modular Design**: Reusable components in `src/components/`
+- **Lazy Loading**: Performance optimization with React.lazy()
+- **Context API**: State management for simulation data
+
+## 🧪 Testing
+
+```bash
+# Run frontend tests
+npm test
+
+# Run backend tests
+python -m pytest
+```
+
+## 🚀 Deployment
+
+### Production Build
+```bash
+npm run build:prod
+```
+
+### Serve Static Files
+```bash
+npm install -g serve
+serve -s build -l 3000
+```
+
+### Docker Deployment
+```dockerfile
+FROM node:16-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci --only=production
+COPY . .
+RUN npm run build
+EXPOSE 3000
+CMD ["npm", "start"]
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Development Guidelines
+- Follow React best practices
+- Use functional components with hooks
+- Maintain consistent code style
+- Add tests for new features
+- Update documentation
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **React Community** - For the amazing framework
+- **Tailwind CSS** - For utility-first styling
+- **Flask** - For robust backend framework
+- **Open Source Security Tools** - For inspiration and learning
+
+## 📞 Support
+
+For questions or issues:
+- Create an issue on GitHub
+- Check the documentation in `/docs`
+- Review simulation guides in `/guides`
+
+---
+
+**Built with ❤️ for cybersecurity education**
