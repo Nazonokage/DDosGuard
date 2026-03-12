@@ -1,0 +1,38 @@
+.terminal {
+  background-color: #1e293b; /* Dark background for terminal */
+  color: #00ff00; /* Green text for terminal-like feel */
+  padding: 16px;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  height: 300px; /* Fixed height for the terminal */
+  overflow-y: auto; /* Make it scrollable */
+  border: 1px solid #374151; /* Border to match the design */
+}
+
+.terminal-content {
+  margin: 0;
+  white-space: pre-wrap; /* Ensure logs wrap properly */
+}
+
+.terminal-line {
+  margin-bottom: 8px; /* Spacing between log lines */
+  color: #00ff00; /* Green text for logs */
+}
+
+/* Scrollbar styling */
+.terminal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.terminal::-webkit-scrollbar-track {
+  background: #1e293b; /* Match terminal background */
+}
+
+.terminal::-webkit-scrollbar-thumb {
+  background: #4b5563; /* Scrollbar thumb color */
+  border-radius: 4px;
+}
+
+.terminal::-webkit-scrollbar-thumb:hover {
+  background: #6b7280; /* Scrollbar thumb hover color */
+}
