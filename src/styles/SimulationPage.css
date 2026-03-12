@@ -1,0 +1,196 @@
+/* SimulationPage.css */
+.simulation-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Sidebar (Left) */
+.sidebar {
+  width: 250px;
+  background-color: #2d2d2d;
+  padding: 20px;
+  color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  color: #fff;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+  color: #007bff;
+}
+
+/* Main Content (Middle) */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
+  columns: rgb(23, 18, 71);
+  margin-left: 150px; /* Adjusted to account for the sidebar on the left */
+  margin-right: 500px; /* Adjusted to account for the terminal and response section on the right */
+  min-width: 600px; /* Ensures the main content doesn't get too thin */
+}
+
+/* Terminal and Response Section (Right) */
+.terminal-response-container {
+  width: 400px; /* Adjusted width for terminal and response section */
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.response-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.response-section h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.status {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.metrics {
+  margin-bottom: 20px;
+}
+
+.metrics div {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.try-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.try-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.try-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* Terminal Styling */
+.terminal {
+  background-color: #2d2d2d;
+  color: #00ff00;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.terminal pre {
+  margin: 0;
+}
+
+.output {
+  margin-top: 10px;
+  color: #ccc;
+}
+
+
+.code-section{
+  color: white;
+  background-color:#2d2d2d;
+  padding: 3%;
+  border-radius: 3%;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .main-content {
+    margin-right: 350px; /* Reduce right margin for smaller screens */
+  }
+
+  .terminal-response-container {
+    width: 350px; /* Reduce width of terminal and response section */
+  }
+}
+
+@media (max-width: 992px) {
+  .main-content {
+    margin-right: 300px; /* Further reduce right margin */
+  }
+
+  .terminal-response-container {
+    width: 300px; /* Further reduce width */
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px; /* Reduce sidebar width */
+  }
+
+  .main-content {
+    margin-left: 200px; /* Adjust main content margin */
+    margin-right: 250px; /* Further reduce right margin */
+  }
+
+  .terminal-response-container {
+    width: 250px; /* Further reduce width */
+  }
+}
+
+@media (max-width: 576px) {
+  .sidebar {
+    width: 150px; /* Further reduce sidebar width */
+  }
+
+  .main-content {
+    margin-left: 150px; /* Adjust main content margin */
+    margin-right: 200px; /* Further reduce right margin */
+  }
+
+  .terminal-response-container {
+    width: 200px; /* Further reduce width */
+  }
+}
