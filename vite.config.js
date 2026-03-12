@@ -6,11 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    proxy: {
-      // Legacy CRA-style PHP backend, same as basis `proxy` setting
-      '/api': 'http://localhost/capstonebackend',
-      // Existing proxy example (kept in case you still need it)
-      '/social_credit/api': 'http://localhost:5000',
-    },
+    // No local API proxy needed; frontend talks directly to hosted backend.
   },
 })

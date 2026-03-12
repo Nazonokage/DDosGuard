@@ -1,10 +1,12 @@
 import axios from 'axios';
 
-// Use relative /api URLs and let the Vite dev server proxy
-// to the PHP backend at http://localhost/capstonebackend via vite.config.js.
+// Point React directly at the hosted backend.
+// All calls like axios.get('/api/auth.php?...') become:
+//   https://ddosguardbackendapi.free.nf/api/auth.php?...
+// We do NOT send credentials so that CORS can stay simple (Access-Control-Allow-Origin: *).
 const axiosInstance = axios.create({
-  // baseURL intentionally left default (same origin)
-  withCredentials: true,
+  baseURL: 'https://ddosguardbackendapi.free.nf',
+  withCredentials: false,
 });
 
 export default axiosInstance;
