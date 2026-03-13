@@ -1,4 +1,5 @@
-from flask import Flask, render_template_string
+import os
+from flask import Flask, render_template_string, jsonify
 from flask_cors import CORS
 from config import Config
 from database import db
@@ -46,7 +47,16 @@ def create_app():
     app.register_blueprint(feedback_bp, url_prefix="/api/feedback")
 
     with app.app_context():
-        db.create_all()
+        try:
+            db.create_all()
+            print("✓ DB tables ready")
+        except Exception as e:
+            print(f"✗ DB error on startup: {e}")
+
+    # Global error handler — returns JSON instead of HTML for API errors
+    @app.errorhandler(500)
+    def handle_500(e):
+        return jsonify({"error": "Internal server error", "detail": str(e)}), 500
 
     @app.route("/")
     def index():
