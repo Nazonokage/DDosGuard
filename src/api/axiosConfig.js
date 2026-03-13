@@ -1,11 +1,11 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  // ── LOCAL (Flask running on XAMPP machine) ─────────────────────────────────
-  //baseURL: 'http://localhost:5000',
+  // ── PRODUCTION (Render) ────────────────────────────────────────────────────
+  baseURL: 'https://ddosguard-7zrx.onrender.com',
 
-  // ── PRODUCTION (PythonAnywhere) ── uncomment when deploying ───────────────
-   baseURL: 'https://ddosguard-7zrx.onrender.com/',
+  // ── LOCAL (Flask running on XAMPP) ── uncomment when developing locally ────
+  // baseURL: 'http://localhost:5000',
 
   withCredentials: false,
 });
