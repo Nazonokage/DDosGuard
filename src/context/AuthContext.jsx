@@ -6,36 +6,43 @@ const AuthContext = createContext();
 const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
-  // Fetch session on app load
   useEffect(() => {
-    const checkSession = async () => {
-      try {
-        const response = await axios.get('/api/auth.php?action=check-session');
-        if (response.data.logged_in) {
+    const token = localStorage.getItem('token');
+    if (!token) return;
+
+    axios.get('/api/auth/me')
+      .then((res) => {
+        if (res.data.logged_in) {
           setUser({
-            id: response.data.user.id,
-            name: response.data.user.name,
-            type: response.data.user.type,
+            id:   res.data.user.id,
+            name: res.data.user.name,
+            type: res.data.user.type,
           });
         }
-      } catch (err) {
-        // If backend is unreachable or returns 4xx/5xx, just treat as logged-out
+      })
+      .catch(() => {
+        localStorage.removeItem('token');
         setUser(null);
-      }
-    };
-    checkSession();
+      });
   }, []);
 
+  const login = (userData, token) => {
+    localStorage.setItem('token', token);
+    setUser(userData);
+  };
+
+  const logout = () => {
+    localStorage.removeItem('token');
+    setUser(null);
+  };
+
   return (
-    <AuthContext.Provider value={{ user, setUser }}>
+    <AuthContext.Provider value={{ user, setUser, login, logout }}>
       {children}
     </AuthContext.Provider>
   );
 };
 
-// Custom hook to use AuthContext
-const useAuth = () => {
-  return useContext(AuthContext);
-};
+const useAuth = () => useContext(AuthContext);
 
-export { AuthContext, AuthProvider, useAuth }; // Export useAuth
+export { AuthContext, AuthProvider, useAuth };

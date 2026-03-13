@@ -1,12 +1,22 @@
 import axios from 'axios';
 
-// Point React directly at the hosted backend.
-// All calls like axios.get('/api/auth.php?...') become:
-//   https://ddosguardbackendapi.free.nf/api/auth.php?...
-// We do NOT send credentials so that CORS can stay simple (Access-Control-Allow-Origin: *).
 const axiosInstance = axios.create({
-  baseURL: 'https://ddosguardbackendapi.free.nf',
+  // ── LOCAL (Flask running on XAMPP machine) ─────────────────────────────────
+  baseURL: 'http://localhost:5000',
+
+  // ── PRODUCTION (PythonAnywhere) ── uncomment when deploying ───────────────
+  // baseURL: 'https://yourusername.pythonanywhere.com',
+
   withCredentials: false,
+});
+
+// Attach JWT token automatically to every request
+axiosInstance.interceptors.request.use((config) => {
+  const token = localStorage.getItem('token');
+  if (token) {
+    config.headers['Authorization'] = `Bearer ${token}`;
+  }
+  return config;
 });
 
 export default axiosInstance;
