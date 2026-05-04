@@ -2,7 +2,7 @@
 
 An interactive educational platform for learning about DDoS attacks, defense mechanisms, and cybersecurity best practices. Built as a React frontend with Flask backend for comprehensive DDoS simulation and monitoring.
 
-![DDoSGuard Logo](public/img/logo.png)
+![DDoSGuard Logo](public/img/logo.png).
 
 ## 🚀 Features
 
